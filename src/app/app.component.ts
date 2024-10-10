@@ -13,7 +13,7 @@ declare var window: any;
 export class AppComponent implements OnInit {
   title = 'hello-ci-cd';
 
-  domain: string = '';
+  domain: string = 'test';
 
   ngOnInit() {
     const parsedUrl = new URL(window.location.href);
